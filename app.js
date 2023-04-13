@@ -1,9 +1,10 @@
 require('dotenv').config()
 
+const express = require('react');
 
 const http = require('http');
 
-const hostname = '127.0.0.1';
+const hostname = '0.0.0.0';
 
 const port = process.env.PORT;
 
